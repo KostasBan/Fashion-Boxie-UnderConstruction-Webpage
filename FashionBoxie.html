@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fashion-boxie</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    font-family: sans-serif;
+    /* background-color: #a68263;
+    background-image: linear-gradient(to bottom, #a68263, #aa7243 100%);
+    */
+    background-color: #C0D9D9;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 14px;
+}
+
+.contact  {
+          font-family: Tempus Sans ITC;
+          position: absolute;
+          bottom: 20%;
+		  left:  50%;
+		  transform: translate(-50%, 90%);
+		  margin: auto;
+		  font-size: 20px;
+}
+.contactImg {
+  width:60px;
+  height:60px;
+  margin-right:20px;
+  border:0;
+}
+.contactImgLast{
+  width:60px;
+  height:60px;
+  border:0;
+}
+
+
+.containerdiv {
+    position: relative;
+    width:50%;
+    margin:2% 25% 0 25%;
+ }
+
+img  {
+  width:100%;
+  margin: auto;
+}
+.logo{
+  position: absolute;
+ /*  box-shadow:10px 10px 5px #49311c;*/
+ box-shadow: 10px 10px 10px #528B8B;
+}
+.imgTape{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.6;
+  }
+.imgWorkingOnit{
+  position: absolute;
+  z-index: 1;
+  width:15%;
+  right: 42.5%;
+}
+
+
+@media screen and (max-width:350px)and (min-width:200px){
+  .containerdiv{
+    position: relative;
+    width:80%;
+    margin:2% 10% 0 10%;
+  }
+  .contact{
+      bottom: 24%;
+      font-size: 12px;
+  }
+  .contactImg{
+    width:20px;
+    height:20px;
+    margin-right: 7px;
+  }
+  .contactImgLast{
+    width:20px;
+    height:20px;
+  }
+
+}
+@media screen and (max-width:600px)and (min-width:351px) {
+  .containerdiv{
+    position: relative;
+    width:80%;
+    margin:2% 10% 0 10%;
+  }
+  .contact{
+      bottom: 45%;
+      font-size: 15px;
+  }
+  .contactImg{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+  }
+  .contactImgLast{
+    width:30px;
+    height:30px;
+  }
+
+}
+@media screen and (max-width: 800px) and (min-width:601px) {
+  .containerdiv{
+    position: relative;
+    width:80%;
+    margin:2% 10% 0 10%;
+  }
+  .contact{
+      bottom: 40%;
+      font-size: 17px;
+  }
+  .contactImg{
+    width:42px;
+    height:42px;
+    margin-right: 14px;
+  }
+  .contactImgLast{
+    width:42px;
+    height:42px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width:801px) {
+  .containerdiv{
+    position: relative;
+    width:80%;
+    margin:2% 10% 0 10%;
+  }
+  .contact{
+      bottom: 30%;
+      font-size: 17px;
+  }
+  .contactImg{
+    width:48px;
+    height:48px;
+    margin-right: 16px;
+  }
+  .contactImgLast{
+    width:48px;
+    height:48px;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width:1001px) {
+  .containerdiv{
+    position: relative;
+    width:70%;
+    margin:2% 15% 0 15%;
+  }
+  .contact{
+      bottom: 30%;
+      font-size: 17px;
+  }
+  .contactImg{
+    width:54px;
+    height:54px;
+    margin-right: 18px;
+  }
+  .contactImgLast{
+    width:54px;
+    height:54px;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width:1301px) {
+  .containerdiv{
+    position: relative;
+    width:60%;
+    margin:2% 20% 0 20%;
+  }
+}
+
+@media screen and (max-height:600px) and (orientation:landscape) {
+  .containerdiv{
+    position: relative;
+    width:86%;
+    margin:auto;
+  }
+  .contact{
+    display: none;
+  }
+}
+
+@media screen and (max-height:900px) and (orientation:landscape) {
+  .containerdiv{
+    position: relative;
+    width:60%;
+    margin:auto;
+  }
+  .contact{
+      bottom: 20%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <div class="containerdiv">
+      <img class="center logo" src="http://i.imgur.com/YZvJiqy.png" />
+      <img class="center imgTape" src="http://i.imgur.com/ucJooEo.png"/>
+      <img class="center imgWorkingOnit" src="http://i.imgur.com/uYGLKlS.png" />
+  </div>
+  <div class="contact">
+    <h2 align="center">Find Us<h2>
+	  <a href="https://www.facebook.com/FashionBoxie/">
+	  <img class="contactImg" src="http://imgur.com/iWHEO1y.png" ></a>
+	  <a href="https://www.instagram.com/fashion_boxie/">
+	  <img class="contactImg" src="http://i.imgur.com/nMFCkgY.png" /></a>
+    <a href="https://twitter.com/FashionBoxie">
+	  <img class="contactImg" src="http://imgur.com/zQK2u7h.png" /></a>
+	  <a href="mailto:FashionBoxie@hotmail.com">
+	  <img class="contactImgLast" src="http://imgur.com/f8tYcNR.png" /></a>
+  </div>
+
+</body>
